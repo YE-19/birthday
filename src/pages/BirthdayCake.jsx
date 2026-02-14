@@ -65,7 +65,7 @@ const GirlyBirthdayCake = () => {
         ))}
       </div>
 
-      <div className="relative z-10 flex flex-col items-center mt-20">
+      <div className="relative z-10 flex flex-col items-center mt-20 px-4">
         <div className="relative flex flex-col items-center mb-[-4px] z-50">
           <AnimatePresence>
             {isLit && (

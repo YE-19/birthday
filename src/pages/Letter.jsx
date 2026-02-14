@@ -88,7 +88,7 @@ const Letter = () => {
                 className="pt-10 flex justify-center"
               >
                 <button
-                  onClick={() => navigate('/memories')} 
+                  onClick={() => navigate('/memories')} // غير المسار ده للمسار الجديد
                   className="group relative flex items-center gap-3 bg-pink-500 text-white px-10 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-pink-600 transition-all hover:gap-5"
                 >
                   See the next surprise

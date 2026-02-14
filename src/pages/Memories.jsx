@@ -10,10 +10,10 @@ import photo4 from '../assets/photo4.jpg';
 const Memories = () => {
   // 2. تحديث المصفوفة بالصور المستوردة
   const photos = [
-    { id: 1, url: photo1, rotation: -5, x: -100, y: -50 },
-    { id: 2, url: photo2, rotation: 8, x: 100, y: -70 },
-    { id: 3, url: photo3, rotation: -12, x: -120, y: 100 },
-    { id: 4, url: photo4, rotation: 5, x: 120, y: 120 },
+    { id: 1, url: photo1, rotation: -5, x: -50, y: -40 },
+    { id: 2, url: photo2, rotation: 8, x: 60, y: -70 },
+    { id: 3, url: photo3, rotation: -12, x: -70, y: 80 },
+    { id: 4, url: photo4, rotation: 5, x: 70, y: 100 },
   ];
 
   return (
@@ -29,7 +29,7 @@ const Memories = () => {
             className="w-3 h-3 bg-yellow-200 rounded-full shadow-[0_0_10px_#fef08a]"
           />
         ))}
-        <div className="absolute top-5 left-0 w-full h-[1px] bg-gray-300 -z-10" />
+        <div className="absolute top-5 left-0 w-full h-px bg-gray-300 -z-10" />
       </div>
 
       {/* عنوان الحيطة */}
@@ -42,7 +42,7 @@ const Memories = () => {
       </motion.div>
 
       {/* حيطة الصور */}
-      <div className="relative w-full max-w-4xl h-[600px] flex items-center justify-center">
+      <div className="relative w-full max-w-4xl h-150 flex items-center justify-center">
         {photos.map((photo, index) => (
           <motion.div
             key={photo.id}
@@ -66,7 +66,7 @@ const Memories = () => {
               />
             </div>
             {/* لزقة الورق (Tape) */}
-            <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-16 h-8 bg-pink-100/70 rotate-[-2deg] shadow-sm border border-white/50 backdrop-blur-[2px]" />
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-16 h-8 bg-pink-100/70 -rotate-2 shadow-sm border border-white/50 backdrop-blur-[2px]" />
           </motion.div>
         ))}
       </div>
