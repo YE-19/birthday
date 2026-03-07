@@ -77,7 +77,7 @@ const Letter = () => {
               {/* التوقيع */}
               <div className="pt-12 text-right border-t border-pink-50">
                 <span className="block text-xs text-gray-400 not-italic uppercase tracking-[0.3em] mb-2">With all my love,</span>
-                <span className="text-3xl text-pink-500 font-bold">Youssef ✨</span>
+                <span className="text-3xl text-pink-500 font-bold">Name ✨</span>
               </div>
 
               {/* الزرار للصفحة اللي بعدها */}

@@ -10,9 +10,9 @@ import photo4 from '../assets/photo4.jpg';
 const Memories = () => {
   // 2. تحديث المصفوفة بالصور المستوردة
   const photos = [
-    { id: 1, url: photo1, rotation: -5, x: -50, y: -40 },
+    { id: 1, url: photo1, rotation: -5, x: -90, y: -40 },
     { id: 2, url: photo2, rotation: 8, x: 60, y: -70 },
-    { id: 3, url: photo3, rotation: -12, x: -70, y: 80 },
+    { id: 3, url: photo3, rotation: -12, x: -70, y: 120 },
     { id: 4, url: photo4, rotation: 5, x: 70, y: 100 },
   ];
 
